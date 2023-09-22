@@ -1,1 +1,2 @@
-this is created to practice git and github.
+#git and github
+gthis is created to practice git and github.
