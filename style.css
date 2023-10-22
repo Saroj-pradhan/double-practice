@@ -3,6 +3,47 @@
     margin: 0%;
     box-sizing: border-box;
 }
+html , body{
+    height: 100%;
+    width: 100%;
+}
 body{
-    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: cornflowerblue;
+}
+.card{
+    background-color: white;
+    height: 400px;
+    width: 280px;
+    border-radius: 10px;
+    padding: 25px;
+}
+.card img{
+    height: 55%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 5px;
+}
+.card h5 {
+    color: blue;
+    font-size: larger;
+}
+.card h5,h1{
+
+text-align: center;
+    margin: 10px 3px;
+}
+
+button{
+    padding: 10px 19px;
+    border-radius: 5px;
+    border: none;
+    margin: 10px 5px;
+    cursor: pointer;
+}
+#af-btn{
+    background-color: rgb(2, 195, 108);
 }
